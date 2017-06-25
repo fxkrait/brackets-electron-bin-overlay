@@ -4,13 +4,8 @@ Gentoo Portage Overlay for the Brackets-Electron Code Editor
 Configuration
 -------------
 
-/etc/layman/layman.cfg add:
-
-    overlays: ...
-              https://github.com/gbevan/brackets-electron-bin-overlay/raw/master/repository.xml
-
 ```bash
-layman -f -a gbevan-brackets-electron
+layman -o https://github.com/gbevan/brackets-electron-bin-overlay/raw/master/repository.xml -f -a gbevan-brackets-electron
 
 emerge -v --ask brackets-electron-bin
 ```
