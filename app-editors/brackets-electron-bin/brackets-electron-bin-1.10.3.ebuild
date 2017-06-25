@@ -11,7 +11,7 @@ SRC_URI="amd64?  ( https://github.com/zaggino/brackets-electron/releases/downloa
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE="chromium"
 
 RDEPEND="
