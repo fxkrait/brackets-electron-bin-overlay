@@ -15,40 +15,45 @@ KEYWORDS="~amd64"
 IUSE="chromium"
 
 RDEPEND="
-    >=dev-libs/openssl-0.9.7d
     >=gnome-base/gconf-2.31.1
-    >=media-libs/alsa-lib-1.0.23
-    >=dev-libs/atk-1.12.4
-    >=x11-libs/cairo-1.6.0
-    >=net-print/cups-1.4.0
-    >=sys-apps/dbus-1.2.14
-    >=dev-libs/expat-1.95.8
-    >=media-libs/fontconfig-2.8.0
-    >=media-libs/freetype-2.3.9
-    >=sys-devel/gcc-4.1.1
-    >=dev-libs/libgcrypt-1.4.5:11
-    >=x11-libs/gdk-pixbuf-2.22.0
-    >=dev-libs/glib-2.18.0
-    >=x11-libs/gtk+-2.24.0
-    >=dev-libs/nspr-1.8.0.10
+    >=x11-libs/libnotify-0.7.0
+    >=x11-libs/libXtst-1.2.0
     >=dev-libs/nss-3.12.6
-    >=x11-libs/pango-1.22.0
-    >=virtual/libudev-198
-    >=x11-libs/libX11-1.4.99.1
-    >=x11-libs/libXcomposite-0.3-r1
-    >=x11-libs/libXdamage-1.1
-    x11-libs/libXext
-    x11-libs/libXfixes
-    >=x11-libs/libXrandr-1.2.0
-    x11-libs/libXrender
-    app-misc/ca-certificates
-    net-misc/curl
-    >=x11-misc/xdg-utils-1.0.2
-    net-misc/wget
-    chromium? ( www-client/chromium )
-    >=app-arch/deb2targz-1-r2
-    x11-themes/adwaita-icon-theme
+    >=x11-libs/libXScrnSaver-1.2.0
     "
+
+#    >=dev-libs/openssl-0.9.7d
+#    >=media-libs/alsa-lib-1.0.23
+#    >=dev-libs/atk-1.12.4
+#    >=x11-libs/cairo-1.6.0
+#    >=net-print/cups-1.4.0
+#    >=sys-apps/dbus-1.2.14
+#    >=dev-libs/expat-1.95.8
+#    >=media-libs/fontconfig-2.8.0
+#    >=media-libs/freetype-2.3.9
+#    >=sys-devel/gcc-4.1.1
+#    >=dev-libs/libgcrypt-1.4.5:11
+#    >=x11-libs/gdk-pixbuf-2.22.0
+#    >=dev-libs/glib-2.18.0
+#    >=x11-libs/gtk+-2.24.0
+#    >=dev-libs/nspr-1.8.0.10
+#    >=x11-libs/pango-1.22.0
+#    >=virtual/libudev-198
+#    >=x11-libs/libX11-1.4.99.1
+#    >=x11-libs/libXcomposite-0.3-r1
+#    >=x11-libs/libXdamage-1.1
+#    x11-libs/libXext
+#    x11-libs/libXfixes
+#    >=x11-libs/libXrandr-1.2.0
+#    x11-libs/libXrender
+#    app-misc/ca-certificates
+#    net-misc/curl
+#    >=x11-misc/xdg-utils-1.0.2
+#    net-misc/wget
+#    chromium? ( www-client/chromium )
+#    >=app-arch/deb2targz-1-r2
+#    x11-themes/adwaita-icon-theme
+
 DEPEND="sys-devel/binutils"
 
 S="${WORKDIR}"
