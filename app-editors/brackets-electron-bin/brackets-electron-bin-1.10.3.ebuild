@@ -64,7 +64,7 @@ src_unpack() {
   ls -la ${DISTDIR}
   ln -sf ${DISTDIR}/${A} ${A}
   ls -la
-  deb2targz ${A} || exit 1
+  ar xv ${A} || exit 1
   rm -f ${A}
   #mv Brackets.Release.${PV}.64-bit.tar.xz data.tar.xz || exit 1
   echo "*** After unpack ***"
