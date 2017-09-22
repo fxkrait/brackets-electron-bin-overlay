@@ -6,7 +6,7 @@
     <homepage>http://github.com/gbevan/brackets-electron-bin-overlay</homepage>
     <owner type="person">
       <email>graham.bevan@ntlworld.com</email>
-      <name>Graham Bevan></name>
+      <name>Graham Bevan</name>
     </owner>
     <source type="git">git://github.com/gbevan/brackets-electron-bin-overlay.git</source>
     <feed>https://github.com/gbevan/brackets-electron-bin-overlay/commits/master.atom</feed>
